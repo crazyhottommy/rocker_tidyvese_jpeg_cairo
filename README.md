@@ -9,6 +9,16 @@ installation of package 'jpeg' had non-zero exit status
 installation of package ‘Cairo’ had non-zero exit status
 ```
 
+I also had an error installing [scRepertoire](https://github.com/ncborcherding/scRepertoire)
+depedency `gsl`
+
+```r
+checking for gsl-config... no
+configure: error: gsl-config not found, is GSL installed?
+```
+
+In the Dockerfile, you will see I added `apt install -y libgsl-dev` to fix it.
+
 ### build the container
 
 ```bash
