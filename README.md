@@ -10,7 +10,7 @@ installation of package ‘Cairo’ had non-zero exit status
 ```
 
 I also had an error installing [scRepertoire](https://github.com/ncborcherding/scRepertoire)
-depedency `gsl`
+dependency `gsl`
 
 ```r
 checking for gsl-config... no
